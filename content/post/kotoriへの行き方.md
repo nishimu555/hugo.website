@@ -1,7 +1,8 @@
 ---
 title: Kotoriへの行き方
 subtitle: さぶたいとる
-image: /img/pengin.png
+tags: お知らせ
+image: ''
 ---
 Kotoriへの行き方をお知らせするよ。
 
