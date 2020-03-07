@@ -12,5 +12,7 @@ collections:
     folder: "content/post"
     create: true
     fields: # 管理画面に追加したいフォームを追加していく
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "サブタイトル", name: "subtitle", widget: "string"}
+      - {label: "本文", name: "body", widget: "markdown", required: false}
+      - {label: "タグ", name: "tags", widget: "list",default: ["お知らせ","アクセス"], required: false}

@@ -1,5 +1,6 @@
 ---
 title: "kotoriへどうやっていくのか"
+subtitle: "さぶたいとる"
 date: 2020-03-07T15:44:43+09:00
 draft: true
 tags: ["infomation","Access"]
