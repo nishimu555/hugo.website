@@ -16,6 +16,6 @@ collections:
     fields: # 管理画面に追加したいフォームを追加していく
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "サブタイトル", name: "subtitle", widget: "string", required: false}
-      - {label: "本文", name: "body", widget: "markdown", required: false}
       - {label: "タグ", name: "tags", widget: "text", required: false}
-      - {label: "画像", name: "image", widget: "image", required: false}
+      - {label: "本文", name: "body", widget: "markdown", required: false}
+      - {label: "画像", name: "image", widget: "image",media_library: {config: {multiple: true}}, required: false}
