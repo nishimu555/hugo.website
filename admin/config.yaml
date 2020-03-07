@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master  # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images" #アップロードされたファイルを保存するフォルダパス
+public_folder: "/images" #アップロードされたファイルがアクセスされるフォルダパス
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "content/post"
+    create: true
+    fields: # 管理画面に追加したいフォームを追加していく
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
