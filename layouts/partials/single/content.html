@@ -17,7 +17,7 @@
   
   <!-- 画像の差し込み -->  
   {{- if .Params.image -}}
-  <img src="{{ .Site.BaseURL }}/{{- .Params.image -}}">
+  <img src="{{ .Site.BaseURL }}{{- .Params.image -}}">
   {{- end -}}
 
   <!-- <div class="container">
