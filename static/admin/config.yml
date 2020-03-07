@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "static/img" #アップロードされたファイルを保存するフォルダパス
-public_folder: "/img" #アップロードされたファイルがアクセスされるフォルダパス
+public_folder: "/public" #アップロードされたファイルがアクセスされるフォルダパス
 collections:
   - name: "post"
     label: "Post"
