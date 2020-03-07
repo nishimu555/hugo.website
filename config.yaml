@@ -1,4 +1,6 @@
-baseURL: https://example.com
+#baseURL: http://localhost:1313
+baseURL: https://blissful-lamarr-f4a2ec.netlify.com
+
 languageCode: ja-jp
 title: kotori homepage
 theme: hugo-refresh

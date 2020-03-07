@@ -13,7 +13,13 @@
         </section>
       </div>
     </div>
-  </div>  
+  </div>
+  
+  <!-- 画像の差し込み -->  
+  {{- if .Params.image -}}
+  <img src="{{ .Site.BaseURL }}/{{- .Params.image -}}">
+  {{- end -}}
+
   <!-- <div class="container">
     <div class="columns">
       <div class="column">
