@@ -1,8 +1,10 @@
 ---
-title: "ホームページを開設しましたよー"
-date: 2020-03-07T15:41:09+09:00
+title: ホームページを開設しましたよー
+date: 2020-03-07T06:41:09.000Z
 draft: true
-tags: ["infomation"]
+subtitle: サブタイトルです
+tags:
+  - infomation
 ---
 
 # 本日はお日柄もよくホームページを開設しました
