@@ -1,5 +1,6 @@
 ---
-title: "ホームページを開設しましたよー"
+Title: ホームページを開設しましたよー
+Subtitle: さぶたいとる
 date: 2020-03-07T15:41:09+09:00
 draft: true
 tags: ["infomation"]
