@@ -6,8 +6,8 @@ publish_mode: editorial_workflow
 
 locale: ja
 
-media_folder: "assets/images" #アップロードされたファイルを保存するフォルダパス
-public_folder: "/img" #アップロードされたファイルがアクセスされるフォルダパス
+media_folder: "assets/images/img" #アップロードされたファイルを保存するフォルダパス
+public_folder: "/ime" #アップロードされたファイルがアクセスされるフォルダパス
 collections:
   - name: "post"
     label: "Post"
@@ -18,4 +18,9 @@ collections:
       - {label: "サブタイトル", name: "subtitle", widget: "string", required: false}
       - {label: "タグ", name: "tags", widget: "text", required: false}
       - {label: "本文", name: "body", widget: "markdown", required: false}
-      - {label: "画像", name: "image", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "リスト画像", name: "title_image", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像１", name: "image", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像２", name: "image2", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像３", name: "image3", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像４", name: "image4", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像５", name: "image5", widget: "image",media_library: {config: {multiple: true}}, required: false}

@@ -17,8 +17,9 @@
         {{- $image := "" -}}
         {{- $imgWidth := 0 -}}
         {{- $imgHeight := 0 -}}
-        {{- if .Params.summaryImage -}} 
-          {{- $image = .Page.Resources.GetMatch .Params.summaryImage -}}
+        {{- if .Params.title_image -}} 
+          {{- $imagePath := .Params.title_image | printf "images/%s" -}}
+          {{- $image = resources.Get $imagePath -}}
           {{- $imgWidth = $image.Width -}}
           {{- $imgHeight = $image.Height -}}
           {{- .Scratch.Set "image" ($image.Resize "600x") -}}

@@ -34,6 +34,10 @@ Taxonomies:
 # https://konpa.github.io/devicon/
 # https://bulkitv2.cssninja.io/_components-icons-fa.html
 
+#staticへassets/imagesを追加
+staticDir:
+  - assets/images
+
 params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
@@ -84,7 +88,7 @@ params:
     # option to specify the main picture of the sidebar
     # the starting folder is configure in "assetDir" of this file
     # image: "/images/avataaars_404.png"
-    image: "/images/kotori-torikago2.png"
+    image: "/images/img/kotori-torikago2.png"
     # option to specify the title of the 404 page
     title: 404 Page Not Found
     # option to specify the subtitle of the 404 page
@@ -100,7 +104,7 @@ params:
     subtitle: ハンドメイドマーケット”kotori展”を毎年どこかで開催！
     # option to specify image in the homepage
     # image: "/images/avataaars.png" # worker.svg 
-    image: "/images/kotori-torikago.png"
+    image: "/images/img/kotori-torikago.png"
     #image: "/images/tori.png"
     # option to specify the width of the image in the homepage
     imageWidth: 800px
