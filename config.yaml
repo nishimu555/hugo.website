@@ -36,7 +36,8 @@ Taxonomies:
 
 #staticへassets/imagesを追加
 staticDir:
-  - assets/images
+  - static
+  - assets/images  
 
 params:
   # parameter used to specify the number of article in each row 
