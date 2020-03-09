@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 locale: ja
 
 media_folder: "assets/images/img" #アップロードされたファイルを保存するフォルダパス
-public_folder: "/ime" #アップロードされたファイルがアクセスされるフォルダパス
+public_folder: "/img" #アップロードされたファイルがアクセスされるフォルダパス
 collections:
   - name: "post"
     label: "Post"
