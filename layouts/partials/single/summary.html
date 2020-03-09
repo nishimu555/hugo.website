@@ -18,7 +18,7 @@
         {{- $imgWidth := 0 -}}
         {{- $imgHeight := 0 -}}
         {{- if .Params.title_image -}} 
-          {{- $imagePath := .Params.title_image | printf "images/%s" -}}
+          {{- $imagePath := .Params.title_image | printf "images%s" -}}
           {{- $image = resources.Get $imagePath -}}
           {{- $imgWidth = $image.Width -}}
           {{- $imgHeight = $image.Height -}}
