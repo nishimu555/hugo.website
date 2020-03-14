@@ -2,8 +2,9 @@
   <div class="container">
     <div class="columns">
       <div class="column">
+        <a href="/">
         <!-- <div class="footer-logo"> -->
-            {{- $out_fo  := "footer.svg" -}}
+            {{- $out_fo  := "kotori-icon.jpg" -}}
             {{- $img_n   := .Site.Params.footer.logo -}}
             {{- $type    := lower (substr $img_n (sub (len $img_n) 3) (len $img_n)) -}}
             {{- $img     := resources.Get $img_n -}}
@@ -12,6 +13,7 @@
             {{- end -}}
             <img src="{{- $img.Permalink | relURL -}}" alt="">
         <!-- </div> -->
+        </a>
       </div>
       
     <div class="column">
@@ -20,15 +22,6 @@
               <h3>{{ i18n "website" }}</h3>
           </div>
           <ul class="link-list">
-            <li>
-                {{- with .Site.GetPage "/credits/index" -}}
-                <a href="{{- .RelPermalink -}}">
-                {{- end -}}    
-                  <span class="icon"><i class="fa fa-cube"></i></span>
-                  {{ i18n "credits" }}
-                </a>
-              </li>
-            <li>
               {{- with .Site.GetPage "tags" -}}
               <a href="{{- .RelPermalink -}}">
               {{- end -}}

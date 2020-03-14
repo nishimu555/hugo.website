@@ -15,12 +15,14 @@ collections:
     create: true
     fields: # 管理画面に追加したいフォームを追加していく
       - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "更新日", name: "LastModified", widget: "date", format: "YYYY/MM/DD", default: ""}
       - {label: "サブタイトル", name: "subtitle", widget: "string", required: false}
       - {label: "タグ", name: "tags", widget: "text", required: false}
       - {label: "本文", name: "body", widget: "markdown", required: false}
-      - {label: "リスト画像", name: "title_image", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "一覧表示する画像", name: "title_image", widget: "image",media_library: {config: {multiple: true}}, required: false}
       - {label: "画像１", name: "image", widget: "image",media_library: {config: {multiple: true}}, required: false}
       - {label: "画像２", name: "image2", widget: "image",media_library: {config: {multiple: true}}, required: false}
       - {label: "画像３", name: "image3", widget: "image",media_library: {config: {multiple: true}}, required: false}
       - {label: "画像４", name: "image4", widget: "image",media_library: {config: {multiple: true}}, required: false}
       - {label: "画像５", name: "image5", widget: "image",media_library: {config: {multiple: true}}, required: false}
+      - {label: "画像６", name: "image6", widget: "image",media_library: {config: {multiple: true}}, required: false}

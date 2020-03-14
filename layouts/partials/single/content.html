@@ -10,23 +10,29 @@
           <!-- <div class="content"> -->
             {{- .Content -}}
           <!-- </div> -->
-
-          <!-- 画像の差し込み -->  
-          {{- if .Params.image -}}
-          <img src="{{ .Site.BaseURL }}{{- .Params.image -}}">
-          {{- end -}}
-          {{- if .Params.image2 -}}
-          <img src="{{ .Site.BaseURL }}{{- .Params.image2 -}}">
-          {{- end -}}
-          {{- if .Params.image3 -}}
-          <img src="{{ .Site.BaseURL }}{{- .Params.image3 -}}">
-          {{- end -}}
-          {{- if .Params.image4 -}}
-          <img src="{{ .Site.BaseURL }}{{- .Params.image4 -}}">
-          {{- end -}}
-          {{- if .Params.image5 -}}
-          <img src="{{ .Site.BaseURL }}{{- .Params.image5 -}}">
-          {{- end -}}
+          <div class="columns">
+            <!-- 画像の差し込み -->  
+            {{- if .Params.image -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image -}}" class="column is-4">
+            {{- end -}}
+            {{- if .Params.image2 -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image2 -}}" class="column is-4">
+            {{- end -}}
+            {{- if .Params.image3 -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image3 -}}" class="column is-4">
+            {{- end -}}
+          </div>
+          <div class="columns">
+            {{- if .Params.image4 -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image4 -}}" class="column is-4">
+            {{- end -}}
+            {{- if .Params.image5 -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image5 -}}" class="column is-4">
+            {{- end -}}
+            {{- if .Params.image6 -}}
+            <img src="{{ .Site.BaseURL }}{{- .Params.image6 -}}" class="column is-4">
+            {{- end -}}
+          </div>
 
         </section>
       </div>
@@ -40,12 +46,11 @@
       </div>
     </div>
   </div> -->
-  {{- if not .Params.hideLastModified -}}
+  {{- if .Params.LastModified -}}
   <div class="container">
     <div class="columns">
       <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        {{ i18n "lastModified" }}:&nbsp;
-        {{- .Lastmod.Format "2 January 2006" -}}
+        {{- .Params.LastModified -}}
       </div>
     </div>
   </div>
