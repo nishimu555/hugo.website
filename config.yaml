@@ -105,7 +105,7 @@ params:
     subtitle: ハンドメイドマーケット”kotori展”を毎年どこかで開催！
     # option to specify image in the homepage
     # image: "/images/avataaars.png" # worker.svg 
-    image: "/images/img/kotori-torikago.png"
+    image: "/images/kotori-torikago.png"
     #image: "/images/tori.png"
     # option to specify the width of the image in the homepage
     imageWidth: 800px

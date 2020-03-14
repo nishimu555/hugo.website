@@ -4,14 +4,7 @@
       <div class="column">
         <a href="/">
         <!-- <div class="footer-logo"> -->
-            {{- $out_fo  := "kotori-icon.jpg" -}}
-            {{- $img_n   := .Site.Params.footer.logo -}}
-            {{- $type    := lower (substr $img_n (sub (len $img_n) 3) (len $img_n)) -}}
-            {{- $img     := resources.Get $img_n -}}
-            {{- if eq $type "svg" -}}
-              {{- $img    = $img | resources.ExecuteAsTemplate $out_fo . }}
-            {{- end -}}
-            <img src="{{- $img.Permalink | relURL -}}" alt="">
+            <img src="kotori-icon.jpg" alt="">
         <!-- </div> -->
         </a>
       </div>
