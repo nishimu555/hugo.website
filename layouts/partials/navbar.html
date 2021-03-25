@@ -43,42 +43,7 @@
 
     <div id="navbar-menu" class="navbar-menu is-static">
       <!-- <div class="navbar-start"></div> -->
-      <!-- <div class="navbar-end">
-        {{ range .Site.RegularPages }}
-          {{- if eq .Params.showInMenu true -}}
-          <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">
-            {{- .Title -}}
-          </a>
-          {{- end -}}
-        {{- end -}}
-        {{- range .Site.Sections -}}
-          {{- if not (eq .Title "singles") -}}
-          {{- $secCount := len .Sections -}}
-          {{- if (ne $secCount 0) }}
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a href="{{- .Permalink | relURL -}}" class="navbar-link">
-              {{- .Title -}}
-            </a>
-            <div class="navbar-dropdown">
-              <!-- <a href="{{- .Permalink -}}" class="navbar-item">
-                > All
-              </a> -->
-      {{- range .Sections -}}
-      <a href="{{- .Permalink | relURL -}}" class="navbar-item">
-        {{- .Title -}}
-      </a>
-      {{- end -}}
     </div>
-  </div>
-  {{- else -}}
-  <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">
-    {{- .Title -}}
-  </a>
-  {{- end -}}
-  {{- end -}}
-  {{- end -}}
-  </div> -->
-  </div>
 
 
 
