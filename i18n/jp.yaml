@@ -3,9 +3,9 @@
 - id: mainMenu
   translation: "メニュー"
 - id: allTags
-  translation: "すべてのカテゴリ"
+  translation: "すべてのお知らせ"
 - id: tags
-  translation: "カテゴリ"
+  translation: "メニュー"
 - id: lastModified
   translation: "Last modified"
 - id: website
