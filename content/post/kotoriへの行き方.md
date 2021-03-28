@@ -1,8 +1,8 @@
 ---
-title: Kotoriへの行き方
+title: 2021コトリ展アクセス
 LastModified: 2020/03/07
-subtitle: さぶたいとる
-tags: お知らせ
+subtitle: コトリ展in横浜阪東橋
+tags: アクセス
 image: ""
 ---
 Kotoriへの行き方をお知らせするよ。
