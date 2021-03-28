@@ -56,7 +56,8 @@ params:
   summary:
     # option to specify the default image in the summary list
     # the starting folder is configure in "assetDir" of this file
-    defaultImage: "/images/default_summary.jpg"
+    # defaultImage: "/images/default_summary.jpg"
+    defaultImage: "/images/default_summary_tori2.png"
 
   # loading options
   loading:
