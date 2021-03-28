@@ -9,7 +9,7 @@
     {{- end -}}
     <img src="{{- $img.Permalink | relURL -}}" alt="">
     {{/* <img src="{{- printf " /images/%s" $logo | absURL -}}"> */}}
-    <!-- <div style="color:white;font-size:24px;"> kotori</div> -->
+    <div style="color:white;font-size:24px;"> kotori</div>
     <a class="sidebar-close" href="javascript:void(0);">
       <i data-feather="x"></i>
     </a>
@@ -38,7 +38,7 @@
         {{- range .Site.Taxonomies.tags.ByCount -}}
         {{/* {{- range .Site.Taxonomies.tags.Alphabetical -}} */}}
       <li class="no-children">
-        <a href="{{- printf " tags/%s" .Name | relLangURL -}}">
+        <a href="{{- printf "tags/%s" .Name | relLangURL -}}">
           <div class="columns">
             {{/* <div class="is-fullwidth">
               <div>{{- .Name | humanize -}}</div>
