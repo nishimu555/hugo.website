@@ -4,12 +4,16 @@
     {{- $img_n := .Site.Params.sidebar.logo -}}
     {{- $type := lower (substr $img_n (sub (len $img_n) 3) (len $img_n)) -}}
     {{- $img := resources.Get $img_n -}}
+
+    {{- $baseurl = resources.Get .Site.baseURL -}}
+
+
     {{- if eq $type "svg" -}}
     {{- $img = $img | resources.ExecuteAsTemplate $out_fo . }}
     {{- end -}}
     <img src="{{- $img.Permalink | relURL -}}" alt="">
     {{/* <img src="{{- printf " /images/%s" $logo | absURL -}}"> */}}
-    <div style="color:white;font-size:24px;"> kotori</div>
+    <div style="color:white;font-size:24px;"> <a href="{{- $baseurl -}}">kotori</a></div>
     <a class="sidebar-close" href="javascript:void(0);">
       <i data-feather="x"></i>
     </a>
