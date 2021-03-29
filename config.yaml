@@ -71,7 +71,7 @@ params:
   mainPage:
     # option to specify the main font of the theme
     #fontFamily: "Open Sans"
-    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif"
+    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
 
   # sidebar options
   sidebar:
@@ -81,13 +81,13 @@ params:
     logo: "/images/tori_icon.png"
     # option to specify the font of the sidebar
     #fontFamily: "Open Sans" # "Open Sans"
-    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif"
+    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
 
   # navbar options
   navbar:
     # option to specify the logo of the sidebar
     # fontFamily: "Open Sans"
-    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif"
+    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
 
   # 404 page options
   pagNotFound:
