@@ -90,7 +90,7 @@ Sidebar Styles
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid lighten($dark-grey, 5%);
+        border-bottom: 2px solid lighten($border-grey, 5%);
         padding: 0 20px;
         img {
             height: 38px;
@@ -145,7 +145,7 @@ Sidebar Styles
                         a {
                             background-color: darken($dark-grey, 5%);
                             padding-left: 62px;
-                            border-bottom: 2px solid darken($border-grey, 2%);
+                            border-bottom: 1px solid darken($dark-grey, 2%);
                             font-size: .8rem;
                             &:hover {
                                 color: $primary;
