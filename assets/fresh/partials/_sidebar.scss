@@ -145,7 +145,7 @@ Sidebar Styles
                         a {
                             background-color: darken($dark-grey, 5%);
                             padding-left: 62px;
-                            border-bottom: 2px solid darken($dark-grey, 2%);
+                            border-bottom: 2px solid darken($border-grey, 2%);
                             font-size: .8rem;
                             &:hover {
                                 color: $primary;
