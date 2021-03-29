@@ -8,7 +8,8 @@ Classes to change the feel of bulma buttons
     cursor: pointer;
     transition: all 0.5s;
     &.cta {
-        font-family: 'Open Sans', sans-serif;
+        // font-family: 'Open Sans', sans-serif;
+        font-family: $fontMainPage, serif;
         font-size: 1rem;
         font-weight: 600;
         padding: 26px 40px 26px 40px;

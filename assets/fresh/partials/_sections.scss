@@ -17,7 +17,8 @@ Section Styles
         height: 75vh !important;
     }
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        // font-family: 'Open Sans', sans-serif;
+        font-family: $fontMainPage, serif;
 
     }
     .subtitle {
@@ -32,7 +33,8 @@ Section Styles
     max-width: 500px;
     margin: 0 auto;
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        // font-family: 'Open Sans', sans-serif;
+        font-family: $fontMainPage, serif;
 
     }
     .subtitle {
