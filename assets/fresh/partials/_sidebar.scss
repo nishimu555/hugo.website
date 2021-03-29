@@ -70,13 +70,16 @@ Sidebar Styles
 //Sidebar
 .sidebar {
     background: $dark-grey;
-    width: 280px;
-    // width: 325px;
+    // width: 280px;
+    //sidebar width 広げる
+    width: 325px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    transform: translateX(-281px);
+    //sidebar width 広げるので閉まる際の動きも変更する
+    //transform: translateX(-281px);
+    transform: translateX(-326px);
     transition: all .3s;
     z-index: 10000;
     &.is-active {
