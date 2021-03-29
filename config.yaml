@@ -41,6 +41,8 @@ staticDir:
   - assets/images
 
 params:
+  SidebarBaseURL: https://kotori-ten.com
+
   # parameter used to specify the number of article in each row
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
   articlesPerRow: 3
