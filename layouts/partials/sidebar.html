@@ -5,7 +5,7 @@
     {{- $type := lower (substr $img_n (sub (len $img_n) 3) (len $img_n)) -}}
     {{- $img := resources.Get $img_n -}}
 
-    {{- $baseurl = .Site.baseURL -}}
+    {{- $baseurl := .Site.baseURL -}}
 
 
     {{- if eq $type "svg" -}}
