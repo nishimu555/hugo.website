@@ -12,7 +12,7 @@
     {{- $img = $img | resources.ExecuteAsTemplate $out_fo . }}
     {{- end -}}
     <div style="transform: translateX(-10px)"><a href="{{- $baseurl -}}" style="color:white;font-size:36px;">kotori</a></div>
-    <img src="{{- $img.Permalink | relURL -}}" alt="" style="transform: translateX(-60px);">
+    <img src="{{- $img.Permalink | relURL -}}" alt="" style="transform: translateX(-64px);">
     {{/* <img src="{{- printf " /images/%s" $logo | absURL -}}"> */}}
     <a class="sidebar-close" href="javascript:void(0);">
       <i data-feather="x"></i>
