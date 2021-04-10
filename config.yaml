@@ -126,6 +126,9 @@ params:
     email:
       link: name.surname@domain.com
       title: My Email
+    contact:
+      link: /form/contact/
+      title: お問い合わせ
     # option to specify your linkedin profile in the footer
     #linkedin:
     #  link: your_linkedin_profile

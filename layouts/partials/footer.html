@@ -59,12 +59,12 @@
             {{ end }}             
             {{ if isset .Site.Params.footer.email "link" }}
             <li>
-              <a href="mailto:{{ .Site.Params.footer.email.link }}" target="_blank">
+              <a href="mailto:{{ .Site.Params.footer.contact.link }}">
                 <span class="icon"><i class="fa fa-envelope"></i></span>
-                {{ if isset .Site.Params.footer.email "title" }}
-                  {{ .Site.Params.footer.email.title }}
+                {{ if isset .Site.Params.footer.contact "title" }}
+                  {{ .Site.Params.footer.contact.title }}
                 {{ else }}
-                  Email
+                  contact url
                 {{ end }}
               </a>
             </li>
