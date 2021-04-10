@@ -39,7 +39,7 @@
             </table>
           </div>
         </a>
-        {{- range .Site.Taxonomies.tags.ByCount -}}
+        {{- range .Site.Taxonomies.tags.Alphabetical -}}
         {{/* {{- range .Site.Taxonomies.tags.Alphabetical -}} */}}
       <li class="no-children">
         <a href="{{- printf "tags/%s" .Name | relLangURL -}}">
