@@ -1,4 +1,48 @@
 {{- define "main" -}}
+<style>
+    form {
+        width: 80%;
+        margin: 10% auto;
+        min-width: 9rem;
+    }
+
+    input,
+    textarea {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        border: none;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        background: darken(#f9f9f9, 10%);
+        color: darken(#f9f9f9, 50%);
+    }
+
+    textarea {
+        height: 10rem;
+    }
+
+    button {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        background-color: #2ABCA7;
+        padding: 12px 45px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #2ABCA7;
+        -webkit-transition: .5s;
+        transition: .5s;
+        display: inline-block;
+        cursor: pointer;
+        width: 35%;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+</style>
 
 <section class="hero is-fullheight is-default is-bold">
     <form name="contact" method="POST" netlify>
