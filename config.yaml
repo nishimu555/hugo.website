@@ -83,7 +83,7 @@ params:
     # option to specify the font of the sidebar
     #fontFamily: "Open Sans" # "Open Sans"
     #fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
-    fontFamily: "Noto Serif JP"
+    fontFamily: 'Noto Serif JP','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto'
 
   # navbar options
   navbar:
