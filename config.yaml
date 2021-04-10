@@ -71,7 +71,7 @@ params:
   mainPage:
     # option to specify the main font of the theme
     #fontFamily: "Open Sans"
-    fontFamily: "'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
+    fontFamily: "'Noto Sans JP','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Noto Sans JP','roboto',sans-serif"
 
   # sidebar options
   sidebar:
