@@ -11,7 +11,8 @@
     {{- if eq $type "svg" -}}
     {{- $img = $img | resources.ExecuteAsTemplate $out_fo . }}
     {{- end -}}
-    <div style="transform: translateX(-10px)"><a href="{{- $baseurl -}}" style="color:white;font-size:36px;">kotori</a></div>
+    <div style="transform: translateX(-10px)"><a href="{{- $baseurl -}}" style="color:white;font-size:36px;">kotori</a>
+    </div>
     <img src="{{- $img.Permalink | relURL -}}" alt="" style="transform: translateX(-64px);">
     {{/* <img src="{{- printf " /images/%s" $logo | absURL -}}"> */}}
     <a class="sidebar-close" href="javascript:void(0);">
@@ -42,7 +43,7 @@
         {{- range .Site.Taxonomies.tags.Alphabetical -}}
         {{/* {{- range .Site.Taxonomies.tags.Alphabetical -}} */}}
       <li class="no-children">
-        <a href="{{- printf "tags/%s" .Name | relLangURL -}}">
+        <a href="{{- printf " tags/%s" .Name | relLangURL -}}">
           <div class="columns">
             {{/* <div class="is-fullwidth">
               <div>{{- .Name | humanize -}}</div>
@@ -71,6 +72,22 @@
           </div>
         </a>
       </li>
+
+      <li class="no-children">
+        <a href="/form/contact/">
+          <div class="columns">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td class="">お問い合わせ</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </a>
+      </li>
+
       {{- end -}}
     </ul>
   </div>

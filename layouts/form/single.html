@@ -26,12 +26,12 @@
     button {
         margin-top: 15px;
         margin-bottom: 25px;
-        background-color: #2ABCA7;
-        padding: 12px 45px;
+        background-color: #00d1b2;
+        padding: 12px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         border-radius: 5px;
-        border: 1px solid #2ABCA7;
+        border: 1px solid 00d1b2;
         -webkit-transition: .5s;
         transition: .5s;
         display: inline-block;
@@ -41,21 +41,25 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+        font-weight: bold;
     }
 </style>
 
 <section class="hero is-fullheight is-default is-bold">
+    {{- partial "navbar.html" . -}}
+    {{- partial "navbar-clone.html" . -}}
+
     <form name="contact" method="POST" netlify>
         <p>
-            <label>お名前:<br><input type="text" name="name" /></label>
+            <label>お名前<br><input type="text" name="name" /></label>
         </p>
         <p>
-            <label>メールアドレス:<br> <input type="email" name="email" /></label>
+            <label>メールアドレス<br> <input type="email" name="email" /></label>
         </p>
         <p>
-            <label>Message:<br> <textarea name="message"></textarea></label>
+            <label>メッセージ<br> <textarea name="message"></textarea></label>
         </p>
-        <p><button type="submit">Send</button></p>
+        <p><button type="submit">送信</button></p>
     </form>
 </section>
 
