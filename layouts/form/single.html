@@ -46,10 +46,8 @@
 </style>
 
 <section class="hero is-fullheight is-default is-bold">
-
-    お問い合わせは、以下のフォームよりお願い致します。
-    <br>
     <form name="contact" method="POST" netlify>
+        <p>お問い合わせは、以下のフォームよりお願い致します。</p><br>
         <p>
             <label>お名前<br><input type="text" name="name" /></label>
         </p>
@@ -61,11 +59,11 @@
         </p>
         <p><button type="submit">送信</button></p>
     </form>
-
+    <br><br>
+    <a href="/" style="color:white;">トップページへ戻る</a>
 </section>
 
 <br><br>
-<a href="/">トップページへ戻る</a>
 
 {{- partial "footer.html" . -}}
 
