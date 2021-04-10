@@ -1,0 +1,27 @@
+{{- define "main" -}}
+
+<section class="hero is-fullheight is-default is-bold">
+    <form name="contact" method="POST" netlify>
+        <p>
+            <label>お名前:<br><input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>メールアドレス:<br> <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Message:<br> <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+</section>
+
+{{- partial "footer.html" . -}}
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+{{- partial "sidebar.html" . -}}
+
+{{- end -}}
