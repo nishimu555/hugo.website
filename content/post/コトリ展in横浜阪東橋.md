@@ -1,5 +1,5 @@
 ---
-title: コトリ展in横浜阪東橋参加ブース
+title: 参加ブース
 LastModified: 2021/04/12
 subtitle: ""
 tags: 2021コトリ展in横浜阪東橋
