@@ -5,7 +5,7 @@ subtitle: 講師　先生
 tags: ワークショップ参加者募集
 title_image: /img/tori5.png
 ---
-５月１５日（土）
+★５月１５日（土）
 
 １４時～１５時３０分
 
