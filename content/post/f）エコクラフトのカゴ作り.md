@@ -4,6 +4,7 @@ LastModified: 2021/04/20
 subtitle: 講師　先生
 tags: ワークショップ参加者募集
 title_image: /img/tori5.png
+image: /img/7e258907-3f9d-4aae-9ab6-76f2a1b477b3.jpeg
 ---
 ★５月１５日（土）
 
