@@ -3,6 +3,7 @@ title: １５）Akemi Herd Fun
 LastModified: 2021/07/31
 tags: 4.2021ぽっぽ町田ブース紹介
 title_image: /img/1626704315968.jpg
+image: /img/1626704315968.jpg
 ---
 土作りに拘って栽培したHerbsをブレンドしたHerb teaを販売
 
