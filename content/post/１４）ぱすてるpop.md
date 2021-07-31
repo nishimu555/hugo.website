@@ -3,6 +3,7 @@ title: １４）ぱすてるPOP
 LastModified: 2021/07/31
 tags: 4.2021ぽっぽ町田ブース紹介
 title_image: /img/1627611213752.jpg
+image: /img/1627611213752.jpg
 ---
 チョークアートワークショップ
 
