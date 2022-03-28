@@ -2,7 +2,7 @@
 title: Ｆ）Mixed herb salt作り
 LastModified: 2021/07/30
 subtitle: ９月１８日（土）１１時～ピロティにて
-tags: 3.2021ワークショップ参加者募集
+tags: 2021ワークショップ参加者募集
 title_image: /img/33-1-.jpg
 image: /img/1627630315781.jpeg
 ---
