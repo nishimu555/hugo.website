@@ -3,7 +3,7 @@ title: 2.コトリ展in横浜阪東橋
 LastModified: 2023/03/11
 subtitle: ★★
 tags: |-
-  2.2023コトリ展in横浜開催
+  コトリ展in横浜開催２０２３
   4/21(金)22(土)
 title_image: /img/コトリ展２０２３.jpg
 image: /img/コトリ展２０２３裏-1-.jpg
