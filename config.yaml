@@ -1,6 +1,6 @@
 #baseURL: http://localhost:1313
 #baseURL: https://blissful-lamarr-f4a2ec.netlify.com
-baseURL: https://kotori-ten.com
+baseURL: https://kotori-ten.net
 
 languageCode: ja-jp
 title: kotori homepage
@@ -41,7 +41,7 @@ staticDir:
   - assets/images
 
 params:
-  SidebarBaseURL: https://kotori-ten.com
+  SidebarBaseURL: https://kotori-ten.net
 
   # parameter used to specify the number of article in each row
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
