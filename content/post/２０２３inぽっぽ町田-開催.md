@@ -2,7 +2,7 @@
 title: ２０２３inぽっぽ町田 開催
 LastModified: 2023/07/18
 subtitle: ９月１５日（金）１６日（土）
-tags: 2.2023コトリ展inぽっぽ町田
+tags: 2023コトリ展inぽっぽ町田
 title_image: /img/1689645804639.jpg
 image: /img/1689645804525.jpg
 image2: /img/1689645804639.jpg
